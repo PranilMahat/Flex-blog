@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  /* font-size: 2rem; */
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.btn {
+  background: orangered;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+/* global message section   */
+
+.global-msg {
+  background: rgba(0, 17, 80, 0.959);
+  color: white;
+  line-height: 32px;
+}
+
+.gblcontent {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* top nav section  */
+
+.nav-bar {
+  background: rgb(17, 17, 130);
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu > ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu ul li {
+  margin-left: 16px;
+}
+
+.hero {
+  background: url(img/hero.jpg) no-repeat center center;
+  background-size: cover;
+  height: 80vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  background: rgb(2, 105, 152);
+  width: 450px;
+  color: wheat;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* main section */
+.main {
+  display: flex;
+  margin-top: 20px;
+}
+
+.main-content {
+  background: white;
+  width: 66%;
+}
+
+article {
+  display: flex;
+  border: 1px solid #ccc;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-right: 9px;
+}
+
+.try {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
+.art-img {
+  width: 400px;
+  margin-right: 20px;
+}
+
+.side-links {
+  width: 34%;
+}
+
+.read-by-country {
+  margin-top: 4rem;
+  background: rgba(222, 250, 109, 0.755);
+  padding: 1rem;
+  border-radius: 5px;
+}
+.read-by-date {
+  margin-top: 3.5rem;
+  background: rgba(250, 231, 14, 0.755);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.recc {
+  background: rgb(228, 249, 158);
+  margin-top: 2rem;
+  padding: 2rem 0;
+}
+
+.card-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 300px;
+  margin: 10px 15px;
+  border-radius: 5px;
+  padding-bottom: 1rem;
+  box-shadow: -5px 5px 5px 5px red;
+}
+
+.card img {
+  border-radius: 5px 5px 0 0;
+}
+
+.btn-card {
+  width: 200px;
+}
+
+/*subscription */
+.subs {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* footer*/
+.footer {
+  background: Black;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  margin-top: 32px;
+}
